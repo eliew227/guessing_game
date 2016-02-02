@@ -1,0 +1,57 @@
+/*
+-----------------------------
+Header
+-----------------------------
+*/
+
+.page-header {
+	background-color: #003366;
+	color: #fff;
+	margin-top: 0;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.glyphicon {
+	vertical-align: middle;
+}
+
+.heading_title {
+	vertical-align: middle;
+}
+
+/*
+-----------------------------
+Layout
+-----------------------------
+*/
+
+.container {
+	max-width: 500px;
+	background-color: #bbb;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/*
+-----------------------------
+Form and buttons
+-----------------------------
+*/
+
+label {
+	color: #003366;
+}
+
+.btn-warning {
+	background-color: #0099cc;
+	border-color: #006699;
+}
+
+.btn-warning:hover {
+	background-color: #003366;
+	border-color: #000033;
+}

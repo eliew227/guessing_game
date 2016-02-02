@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="guessing_game.css">
+		<title>The Guessing Game</title>
+	</head>
+
+	<body>
+		<div class="page-header">
+			<h1>
+				<span class="glyphicon glyphicon-question-sign"></span>
+				<span class="heading_title">The Guessing Game</span>
+			</h1>
+		</div>
+
+		<div class="container">
+			<form>
+				<div class="form-group">
+					<label for="guess">Guess the number</label>					
+					<input id="guess" type="text" class="form-control" name="guess" placeholder="Enter a number between 1 and 100" required>
+				</div>				
+			</form>
+			
+			<div>
+				<button id="submit" class="btn btn-success">Submit guess</button>
+				<button class="btn btn-warning">Give me a hint</button>
+				<button class="btn btn-warning">Reset</button>
+			</div>
+
+		</div>	
+		
+	</body>
+</html>
