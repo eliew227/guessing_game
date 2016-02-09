@@ -16,21 +16,33 @@
 			</h1>
 		</div>
 
-		<div class="container">
+		<div class="container user-guesses">
+			<div id="guesses-message">You have <span id="guesses-remaining"></span> guesses remaining</div>
+			<div class="guesses" id="guess1"></div>
+			<div class="guesses" id="guess2"></div>
+			<div class="guesses" id="guess3"></div>
+			<div class="guesses" id="guess4"></div>
+			<div class="guesses" id="guess5"></div>
+		</div>
+
+		<div class="container user-input">
 			<form>
 				<div class="form-group">
 					<label for="guess">Guess the number</label>					
-					<input id="guess" type="text" class="form-control" name="guess" placeholder="Enter a number between 1 and 100" required>
-				</div>				
+					<input id="guess" type="text" class="form-control" name="guess" placeholder="Enter a number between 1 and 100">
+				</div>			
 			</form>
 			
 			<div>
 				<button id="submit" class="btn btn-success">Submit guess</button>
-				<button class="btn btn-warning">Give me a hint</button>
-				<button class="btn btn-warning">Reset</button>
-			</div>
+				<button id="hint" class="btn btn-warning">Give me a hint</button>
+				<button id="reset" class="btn btn-warning">Reset</button>
+			</div>	
 
 		</div>	
+	
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src='guessing_game.js'></script>
 		
 	</body>
 </html>
